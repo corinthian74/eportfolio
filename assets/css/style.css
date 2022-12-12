@@ -538,6 +538,31 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+.tab-section {
+  padding: 60px 0 0 0;
+}
+ul.list-one li {
+  list-style: none;
+  padding: 10px 0;
+}
+ul.list-one li a {
+  color: #333;
+  font-weight: 600;
+  font-size: 20px;
+
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+ul.list-one li a:hover {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  background: #00baaa;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
 section {
   padding: 60px 0;
 }
@@ -572,6 +597,16 @@ h2.about-me-h::after {
 }
 
 .section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 130px;
+  height: 3px;
+  background: #34b7a7;
+  bottom: 0;
+  /* left: calc(50% - 25px); */
+}
+.section-title h3::after {
   content: "";
   position: absolute;
   display: block;
